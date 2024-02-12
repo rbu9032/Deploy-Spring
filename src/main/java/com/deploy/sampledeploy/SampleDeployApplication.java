@@ -16,7 +16,7 @@ public class SampleDeployApplication {
 		}
 		@GetMapping
 		public String Message(){
-		return "Spring-Boot App is running";
+		return "Spring-Boot App is running in AWS EC2 Server";
 		}
 
 }
